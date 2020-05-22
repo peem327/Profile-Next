@@ -40,7 +40,6 @@ const About = () => {
                 <Resume />
             </div>
         </Layout>
-
     )
 }
 

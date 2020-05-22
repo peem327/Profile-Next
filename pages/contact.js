@@ -5,7 +5,6 @@ import Form from "../containers/Form";
 
 
 const Contact = () => {
-    
         return (
                 <Layout title="Contact">
                     <div className=" jumbotron jumbotron-fluid bg-header wheat bg-header mt-5">

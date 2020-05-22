@@ -18,7 +18,7 @@ const ProjectsPage = () => {
       </div>
       <div className="row">
         <div className="col-md-4 my-3">
-          <div className="" style={{ width: "22rem" }}>
+          <div className="" style={{ width: "18rem" }}>
             <img src="\static\images\demo\Responsive Design.png" className="card-img-top" alt="..." />
           <div className = "my-2">
             <h5 className="card-title">Responsive Design</h5>
@@ -29,7 +29,7 @@ const ProjectsPage = () => {
           <hr/>
         </div>
         <div className="col-md-4 my-3">
-          <div className="" style={{ width: "22rem" }}>
+          <div className="" style={{ width: "18rem" }}>
             <img src="\static\images\demo\E-commerce.png" className="card-img-top" alt="..." />
           <div className = "my-2">
             <h5 className="card-title">E-commerce</h5>
@@ -40,7 +40,7 @@ const ProjectsPage = () => {
           <hr/>
         </div>
         <div className="col-md-4 my-3">
-          <div className="" style={{ width: "24rem" }}>
+          <div className="" style={{ width: "20rem" }}>
             <img src="\static\images\demo\Web Content.png" className="card-img-top" alt="..." />
           <div className = "my-2">
             <h5 className="card-title">Web Content</h5>
