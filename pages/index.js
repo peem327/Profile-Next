@@ -1,15 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import Layout from "../components/Layout";
 import Skill from "../containers/Skill";
 import ProjectsPage from "../containers/Projects";
 
 
 
-class Index extends Component {
+const Index = () => {
 
-
-
-    render() {
         return (
             <div>
                 <Layout>
@@ -26,7 +23,6 @@ class Index extends Component {
                 </Layout>
             </div>
         )
-    }
 }
 
 

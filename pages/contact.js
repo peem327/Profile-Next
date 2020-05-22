@@ -1,17 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Layout from "../components/Layout";
 import Form from "../containers/Form";
 
 
 
-class Contact extends Component {
-
-    render() {
-
+const Contact = () => {
+    
         return (
-
                 <Layout title="Contact">
-                    <div className=" container-fluid bg-header wheat bg-header mt-5">
+                    <div className=" jumbotron jumbotron-fluid bg-header wheat bg-header mt-5">
                         <div className="container">
                             <h1 className="display-4 ">Contact me</h1>
                             <br></br>
@@ -24,7 +21,7 @@ class Contact extends Component {
                                 <Form />
                             </div>
                             <div className="col-6-sm text-center mt-5 text-center">
-                                <div className = "mt-2">
+                                <div className = "my">
                                 <ul className="list-group list-group-flush shadow-sm p-3 mb-5 bg-white rounded">
                                     <li className="list-group-item">
                                         <h2>Contact information</h2>
@@ -67,9 +64,7 @@ class Contact extends Component {
                         </div>
                     </div>
                 </Layout>
- 
         );
-    }
 }
 
 export default Contact;
