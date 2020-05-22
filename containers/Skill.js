@@ -88,7 +88,7 @@ const Skill = () => {
             {/* // WHAT CAN I DO */}
 
             <div className="bg-header">
-                <div className="container-fluid wheat">
+                <div className="container wheat">
                     <div className="row">
                         <div className=" ">
                             <h1 className="section-heading text-uppercase">What Can I Do</h1>

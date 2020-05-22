@@ -13,8 +13,8 @@ class Index extends Component {
         return (
             <div>
                 <Layout>
-                    <div className=" wheat bg-header">
-                        <div className="container-fluid">
+                    <div className="jumbotron jumbotron-fluid bg-header wheat bg-header mt-5">
+                        <div className="container">
                             <p className="lead wheat mt-5">Hello, My Name Is</p>
                             <h1 className="display-4 ">Phanat Buaban</h1>   
                         </div>

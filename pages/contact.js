@@ -9,14 +9,13 @@ class Contact extends Component {
     render() {
 
         return (
+
                 <Layout title="Contact">
-                    <div className="container-fluid  bg-header wheat">
-                        <div className="roe">
-                            <div className = "col-12">
+                    <div className=" jumbotron jumbotron-fluid bg-header wheat bg-header mt-5">
+                        <div className="container">
                             <h1 className="display-4 ">Contact me</h1>
                             <br></br>
                             <h5>Anytime you want</h5>
-                            </div>
                         </div>
                     </div>
                     <div className="container">
@@ -66,6 +65,7 @@ class Contact extends Component {
                         </div>
                     </div>
                 </Layout>
+ 
         );
     }
 }

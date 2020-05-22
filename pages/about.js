@@ -7,8 +7,8 @@ import Resume from "../containers/Resume";
 const About = () => {
     return (
         <Layout title="Profile">
-            <div className=" wheat bg-header">
-                <div className="container md-auto">
+            <div className=" jumbotron jumbotron-fluid bg-header wheat bg-header mt-5">
+                <div className="container">
                     <h1 className="display-4 ">My Profile</h1>
                 </div>
             </div>
