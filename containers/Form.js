@@ -3,9 +3,9 @@ import React from "react";
 const form =()=>{
 
         return(
-            <div className = "container">
+            <div className = "container-fluid">
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe6P5GaJOfsPAXb8D2kDQ7XobT8CIAOn2muwgk3GhTZXzVKaw/viewform?embedded=true" 
-                width="800" height="1000" frameborder="0" marginheight="0" marginwidth="0">กำลังโหลด…</iframe>
+                width="500" height="850" frameborder="0" marginheight="0" marginwidth="0">กำลังโหลด…</iframe>
             </div>
         )
 }
