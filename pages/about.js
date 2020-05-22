@@ -8,7 +8,7 @@ const About = () => {
     return (
         <Layout title="Profile">
             <div className=" wheat bg-header">
-                <div className="container">
+                <div className="container md-auto">
                     <h1 className="display-4 ">My Profile</h1>
                 </div>
             </div>

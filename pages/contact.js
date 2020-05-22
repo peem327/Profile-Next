@@ -9,13 +9,14 @@ class Contact extends Component {
     render() {
 
         return (
-
                 <Layout title="Contact">
-                    <div className="wheat bg-header">
-                        <div className="container">
+                    <div className="container-fluid  bg-header wheat">
+                        <div className="roe">
+                            <div className = "col-12">
                             <h1 className="display-4 ">Contact me</h1>
                             <br></br>
                             <h5>Anytime you want</h5>
+                            </div>
                         </div>
                     </div>
                     <div className="container">
@@ -46,23 +47,25 @@ class Contact extends Component {
                                                 <img src="/static/Icons/logo-facebook.svg" alt="" width="35" height="35" title="..." />
                                             </a>
                                         </div>
+                                        <hr/>
                                         <div className="col">
                                             <a href="https://line.me/ti/p/_F2Vdy5C4k title">
                                                 <img src="/static/Icons/icons8-line.svg" alt="" width="35" height="35" title="..." />
                                             </a>
                                         </div>
+                                        <hr/>
                                         <div className="col">
                                             <a href="https://web.facebook.com/peem27">
                                                 <img src="/static/Icons/icons8-twitter.svg" alt="" width="35" height="35" title="..." />
                                             </a>
                                         </div>
+                                        <hr/>
                                     </div>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </Layout>
- 
         );
     }
 }

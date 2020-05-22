@@ -14,12 +14,12 @@ class Index extends Component {
             <div>
                 <Layout>
                     <div className=" wheat bg-header">
-                        <div className="container">
+                        <div className="container-fluid">
                             <p className="lead wheat mt-5">Hello, My Name Is</p>
                             <h1 className="display-4 ">Phanat Buaban</h1>   
                         </div>
                     </div>
-                    <div className ="container">
+                    <div>
                         <Skill />
                         <ProjectsPage />
                     </div>

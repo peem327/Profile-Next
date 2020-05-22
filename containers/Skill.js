@@ -7,10 +7,9 @@ const Skill = () => {
                 <div className="row">
                     <div className="col-md-4 my-5">
                         <img src="/static/images/profile/20200513_020555002.jpg" className="card-img" alt="profile" />
-
                     </div>
-                    <div className="col-md-8">
-                        <div className="...">
+                    <div className="col-md-8 my-5">
+                        <div className="containerS">
                             <h6 className="card-title">ABOUT ME</h6>
                             <h2 className="card-title">Who Am I</h2>
                             <p className="card-text   title ">
@@ -88,8 +87,8 @@ const Skill = () => {
 
             {/* // WHAT CAN I DO */}
 
-            <div className="bg-header jumbotron jumbotron-fluid">
-                <div className="container wheat">
+            <div className="bg-header">
+                <div className="container-fluid wheat">
                     <div className="row">
                         <div className=" ">
                             <h1 className="section-heading text-uppercase">What Can I Do</h1>

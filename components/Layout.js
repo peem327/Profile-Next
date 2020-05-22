@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Head from "next/head";
-import Navbar from "../containers/Navbar"
+import Navbar from "../containers/Navbar";
 import Footer from "./Footer";
 
 class Layout extends Component {

@@ -4,7 +4,7 @@ const Resume = () => {
 
     return (
         <div>
-            <div className="bg-header jumbotron jumbotron-fluid ">
+            <div className="bg-header jumbotron jumbotron-fluid">
                 <div className="container wheat">
                     <div className="row my-3">
                         <div className="col-ml-12 ">
