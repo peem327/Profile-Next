@@ -3,7 +3,7 @@ import React from "react";
 const Skill = () => {
     return (
         <div>
-            <div className="container mt-5 md-5">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-4 my-5">
                         <img src="/static/images/profile/20200513_020555002.jpg" className="card-img" alt="profile" />
