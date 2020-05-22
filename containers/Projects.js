@@ -40,7 +40,7 @@ const ProjectsPage = () => {
           <hr/>
         </div>
         <div className="col-md-4 my-3">
-          <div className="" style={{ width: "25rem" }}>
+          <div className="" style={{ width: "24rem" }}>
             <img src="\static\images\demo\Web Content.png" className="card-img-top" alt="..." />
           <div className = "my-2">
             <h5 className="card-title">Web Content</h5>

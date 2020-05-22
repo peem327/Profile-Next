@@ -11,7 +11,7 @@ class Contact extends Component {
         return (
 
                 <Layout title="Contact">
-                    <div className=" jumbotron jumbotron-fluid bg-header wheat bg-header mt-5">
+                    <div className=" container-fluid bg-header wheat bg-header mt-5">
                         <div className="container">
                             <h1 className="display-4 ">Contact me</h1>
                             <br></br>
@@ -20,11 +20,11 @@ class Contact extends Component {
                     </div>
                     <div className="container">
                         <div className="row">
-                            <div className="col-8-sm text-center mt-5 ">
+                            <div className="col-6-sm text-center mt-5 ">
                                 <Form />
                             </div>
-                            <div className="col-4-sm text-center mt-5 text-center">
-                                <div className = "">
+                            <div className="col-6-sm text-center mt-5 text-center">
+                                <div className = "mt-2">
                                 <ul className="list-group list-group-flush shadow-sm p-3 mb-5 bg-white rounded">
                                     <li className="list-group-item">
                                         <h2>Contact information</h2>
