@@ -20,10 +20,11 @@ class Contact extends Component {
                     </div>
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-8 text-center mt-5 ">
+                            <div className="col-8-sm text-center mt-5 ">
                                 <Form />
                             </div>
-                            <div className="col-lg-4 text-center mt-5">
+                            <div className="col-4-sm text-center mt-5 text-center">
+                                <div className = "">
                                 <ul className="list-group list-group-flush shadow-sm p-3 mb-5 bg-white rounded">
                                     <li className="list-group-item">
                                         <h2>Contact information</h2>
@@ -61,6 +62,7 @@ class Contact extends Component {
                                         <hr/>
                                     </div>
                                 </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

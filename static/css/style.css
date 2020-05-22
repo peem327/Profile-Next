@@ -6,13 +6,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    max-width:1600px;
-    min-width:500px;
+    padding-top: 150px;
+    padding-bottom: 100px;
 
   }
 
 @media (min-width: 768px) {
-    .bg-header  {
+    .view {
         overflow: visible;
         margin-top: -56px;
     }
