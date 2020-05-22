@@ -19,7 +19,7 @@ class Index extends Component {
                             <h1 className="display-4 ">Phanat Buaban</h1>   
                         </div>
                     </div>
-                    <div>
+                    <div className ="container">
                         <Skill />
                         <ProjectsPage />
                     </div>

@@ -9,7 +9,7 @@ class Contact extends Component {
     render() {
 
         return (
-            <div>
+
                 <Layout title="Contact">
                     <div className="wheat bg-header">
                         <div className="container">
@@ -41,17 +41,17 @@ class Contact extends Component {
                                         <p>phanat.buaban27@gmail.com</p>
                                     </li>
                                     <div className="row my-3">
-                                        <div className="col-sm">
+                                        <div className="col">
                                             <a href="https://web.facebook.com/peem27">
                                                 <img src="/static/Icons/logo-facebook.svg" alt="" width="35" height="35" title="..." />
                                             </a>
                                         </div>
-                                        <div className="col-sm">
+                                        <div className="col">
                                             <a href="https://line.me/ti/p/_F2Vdy5C4k title">
                                                 <img src="/static/Icons/icons8-line.svg" alt="" width="35" height="35" title="..." />
                                             </a>
                                         </div>
-                                        <div className="col-sm">
+                                        <div className="col">
                                             <a href="https://web.facebook.com/peem27">
                                                 <img src="/static/Icons/icons8-twitter.svg" alt="" width="35" height="35" title="..." />
                                             </a>
@@ -62,7 +62,7 @@ class Contact extends Component {
                         </div>
                     </div>
                 </Layout>
-            </div>
+ 
         );
     }
 }
