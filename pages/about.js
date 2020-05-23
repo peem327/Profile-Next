@@ -28,7 +28,7 @@ const About = () => {
                             <br></br>
                         </div>
                         <div>
-                            <a href="\static\Download\White and Coral Icons Infographic Resume01.pdf" class="btn btn-info btn-rounded waves-effect waves-light" download>Download Resume
+                            <a href="\static\Download\Resume.pdf" class="btn btn-info btn-rounded waves-effect waves-light" download>Download Resume
                               <i class="fas fa-download ml-2 d-none d-xl-inline-block"></i>
                             </a>
                         </div>
