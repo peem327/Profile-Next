@@ -28,8 +28,8 @@ const About = () => {
                             <br></br>
                         </div>
                         <div>
-                            <a href="\static\Download\Resume.pdf" class="btn btn-info btn-rounded waves-effect waves-light" download>Download Resume
-                              <i class="fas fa-download ml-2 d-none d-xl-inline-block"></i>
+                            <a href="\static\Download\Resume.pdf" className="btn btn-info btn-rounded waves-effect waves-light" download>Download Resume
+                              <i className="fas fa-download ml-2 d-none d-xl-inline-block"></i>
                             </a>
                         </div>
                     </div>

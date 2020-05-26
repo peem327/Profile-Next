@@ -61,6 +61,10 @@
   color: whitesmoke;
 }
 
+.link-color a:hover {
+  color: gray;
+}
+
 @font-face{
     font-family:'Prompt-Regular' ;
     src: url('server/static/fonts/Prompt-Regular.ttf');
