@@ -15,7 +15,7 @@ const About = () => {
             <div className="container ">
                 <div className="row">
                     <div className="col-md-4 my-5 ">
-                        <img src="/static/images/profile/98450419_266743831138028_1553971587768647680_n.png" className="card-img " alt="profile " style={{ width: "15rem" }} />
+                        <img src="/static/images/profile/20645820_1885924418090692_486441601_n.jpg" className="card-img " alt="profile " style={{ width: "15rem" }} />
                     </div>
                     <div className="col-md-8">
                         <div className="...">
