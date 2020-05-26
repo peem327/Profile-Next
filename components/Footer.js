@@ -49,8 +49,8 @@ const Footer = (props) => {
           </div>
         </div>
         <div className="text-center ">
-          <span className="text"> Powered By {company}</span>|{" "}
-          <span className="text">Contact By Email: {email}</span>
+          <span className="text-danger"> Powered By {company}</span>|{" "}
+          <span className="text-muted">Contact By Email: {email}</span>
         </div>
       </div>
     </div>
