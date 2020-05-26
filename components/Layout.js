@@ -26,7 +26,7 @@ class Layout extends Component {
           
                 <Navbar /> 
                 {children}
-                <Footer company="PEEM" email="phanat.buaban27@gmail.com" />
+                <Footer company="Phanat" email="Phanat.Puaban27@gmail.com" />
             </div>
         )
 
