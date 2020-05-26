@@ -9,7 +9,6 @@ class Navbar extends React.Component {
    
   
     return (
- 
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
           <a className="navbar-brand" href="/">I'm Peem</a>
