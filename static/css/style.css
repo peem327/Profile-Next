@@ -32,28 +32,37 @@
 
 
 /* progress-bar */
-#language-one{
+#HTML{
      width: 75% ;
-     background-color: green;
+     background-color: orangered;
 }
 
-#language-two{
+#CSS{
   width: 65% ;
-  background-color: green;
+  background-color: rgb(67, 67, 241);
 }
 
-#language-three{
+#JS{
   width: 65% ;
-  background-color: green;
+  background-color: rgb(224, 224, 48);
 }
 
-#framework{
-    width: 60% ;
-    background-color: green;
+#React{
+  width: 60% ;
+  background-color:skyblue;
+ 
+    list-style-type: none;
+    padding: 0;
+  
 }
-#tool{
+
+#PS{
+    width: 40% ;
+    background-color: rgb(0, 110, 255);
+}
+#AI{
     width: 50% ;
-    background-color: green;
+    background-color: rgb(235, 80, 19);
 }
 
 /* nav */

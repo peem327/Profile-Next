@@ -1,6 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 
-const Skill = () => {
+class Skill extends Component {
+  render(){
+
   return (
     <div>
       <div className="container">
@@ -69,7 +71,7 @@ const Skill = () => {
                       aria-valuenow="50"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      id="language-one"
+                      id="HTML"
                     ></div>
                   </div>
                 </div>
@@ -92,7 +94,7 @@ const Skill = () => {
                       aria-valuenow="50"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      id="language-two"
+                      id="CSS"
                     ></div>
                   </div>
                 </div>
@@ -118,7 +120,7 @@ const Skill = () => {
                       aria-valuenow="50"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      id="language-three"
+                      id="JS"
                     ></div>
                   </div>
                 </div>
@@ -141,7 +143,7 @@ const Skill = () => {
                       aria-valuenow="50"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      id="framework"
+                      id="React"
                     ></div>
                   </div>
                 </div>
@@ -167,7 +169,7 @@ const Skill = () => {
                       aria-valuenow="50"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      id="tool"
+                      id="PS"
                     ></div>
                   </div>
                 </div>
@@ -190,7 +192,7 @@ const Skill = () => {
                       aria-valuenow="50"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      id="tool"
+                      id="AI"
                     ></div>
                   </div>
                 </div>
@@ -265,6 +267,7 @@ const Skill = () => {
       </div>
     </div>
   );
+}
 };
 
 export default Skill;
