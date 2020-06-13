@@ -31,35 +31,6 @@
 }
 
 
-/* progress-bar */
-#HTML{
-     width: 75% ;
-     background-color: orangered;
-}
-
-#CSS{
-  width: 65% ;
-  background-color: rgb(67, 67, 241);
-}
-
-#JS{
-  width: 65% ;
-  background-color: rgb(224, 224, 48);
-}
-
-#React{
-  width: 60% ;
-  background-color:skyblue;
-}
-
-#PS{
-    width: 40% ;
-    background-color: rgb(0, 110, 255);
-}
-#AI{
-    width: 50% ;
-    background-color: rgb(235, 80, 19);
-}
 
 /* nav */
 .link-color a {
@@ -279,6 +250,47 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 20px 20px;
   }
 }
+
+
+/* progress-bar */
+
+#HTML{
+  width:75%;
+  animation: MyProgress 5s ease;
+  background-color: orangered;
+}
+#CSS{
+  width:60%;
+  animation: MyProgress 5s ease;
+  background-color: rgb(67, 67, 241);
+}
+#JS{
+  width:65%;
+  animation: MyProgress 5s ease;
+  background-color: rgb(224, 224, 48);
+}
+#React{
+  width:60%;
+  animation: MyProgress 5s ease;
+  background-color:skyblue;
+}
+#PS{
+  width:40%;
+  animation: MyProgress 5s ease;
+  background-color: rgb(0, 110, 255);
+}
+#AI{
+  width:40%;
+  animation: MyProgress 5s ease;
+  background-color: rgb(235, 80, 19);
+}
+@keyframes MyProgress{
+	0%{
+		width: 0;
+	}
+	50%{
+		width: 250px;
+	}
 
 
 
