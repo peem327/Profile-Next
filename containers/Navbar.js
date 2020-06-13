@@ -19,7 +19,7 @@ class Navbar extends React.Component {
             <div className="navbar-nav ml-auto">
               <li className="nav-item nav-link link-color"><Link href="/">Home</Link></li>
               <li className="nav-item nav-link link-color"><Link href="/about">Profile</Link></li>
-              <li className="nav-item nav-link "><a https="//docs.google.com/forms/d/e/1FAIpQLSe6P5GaJOfsPAXb8D2kDQ7XobT8CIAOn2muwgk3GhTZXzVKaw/viewform?usp=sf_link">Contact</a></li>
+              <li className="nav-item nav-link "><a https="https://forms.gle/3KuGuRGmrwrVFC9a6">Contact</a></li>
             </div>
           </div>
         </nav>   
