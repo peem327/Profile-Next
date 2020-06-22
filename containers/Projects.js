@@ -40,7 +40,7 @@ const ProjectsPage = () => {
                 </a>
               </div>
             </div>
-            <hr />
+     
           </div>
           <div className="col-md-4 my-3">
             <div className="" style={{ width: "18rem" }}>
@@ -64,7 +64,7 @@ const ProjectsPage = () => {
                 </a>
               </div>
             </div>
-            <hr />
+ 
           </div>
           <div className="col-md-4 my-3">
             <div className="" style={{ width: "20rem" }}>
@@ -87,7 +87,7 @@ const ProjectsPage = () => {
                 </a>
               </div>
             </div>
-            <hr />
+       
           </div>
         </div>
       </div>
