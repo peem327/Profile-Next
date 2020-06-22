@@ -2,8 +2,6 @@ import React, { Component } from "react";
 
 class Skill extends Component {
   
-  rc
-
   render() {
     return (
       <div>

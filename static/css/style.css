@@ -1,7 +1,7 @@
 
 /* background */
 .bg-header {
-    background-image: url("../images/background/bg-header.png");
+    background-image: url("../images/background/bg-header01.jpg");
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,8 +29,6 @@
 .whitesmoke{
   color: whitesmoke;
 }
-
-
 
 /* nav */
 .link-color a {
